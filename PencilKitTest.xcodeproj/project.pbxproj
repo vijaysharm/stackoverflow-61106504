@@ -13,6 +13,7 @@
 		4298D7D6243E0F26006A38F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4298D7D4243E0F26006A38F6 /* Main.storyboard */; };
 		4298D7D8243E0F29006A38F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4298D7D7243E0F29006A38F6 /* Assets.xcassets */; };
 		4298D7DB243E0F29006A38F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4298D7D9243E0F29006A38F6 /* LaunchScreen.storyboard */; };
+		4298D7E4243E0F4F006A38F6 /* PencilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298D7E3243E0F4F006A38F6 /* PencilKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4298D7D7243E0F29006A38F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4298D7DA243E0F29006A38F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4298D7DC243E0F29006A38F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4298D7E3243E0F4F006A38F6 /* PencilKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PencilKit.framework; path = System/Library/Frameworks/PencilKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4298D7E4243E0F4F006A38F6 /* PencilKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				4298D7CD243E0F26006A38F6 /* PencilKitTest */,
 				4298D7CC243E0F26006A38F6 /* Products */,
+				4298D7E2243E0F4F006A38F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				4298D7DC243E0F29006A38F6 /* Info.plist */,
 			);
 			path = PencilKitTest;
+			sourceTree = "<group>";
+		};
+		4298D7E2243E0F4F006A38F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4298D7E3243E0F4F006A38F6 /* PencilKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
